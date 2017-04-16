@@ -10,10 +10,22 @@
 	font-style:italic;
 }
 
+a:visited {
+	color:red;
+}
+
+#once {
+	padding: 2px 0px 2px 0px;
+	border-bottom: dotted;
+	width:240px;
+}
+
+
 main {
 	z-index:"2";
 	width:960px;
 	margin: 0 auto;
+
 }
 
 h1 {
@@ -21,9 +33,15 @@ h1 {
 	min-width:200px;
 	margin: 0 auto;
 	border:solid;
-	border-color:gold;
+	border-color:goldenrod;
 	color:blue
 }
-body {
-	background-color: white;
+.gold {
+	background-color: goldenrod;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        width:100%;
+    }
 }
