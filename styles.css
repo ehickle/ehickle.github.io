@@ -1,7 +1,7 @@
 #picture {
-	text-align: center;
-	width:760px
-	margin: 0 auto;
+	display: block;
+	margin: auto;
+	width: 50%;
 	height:400px;
 	z-index:"1";
 }
