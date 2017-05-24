@@ -1,7 +1,5 @@
 console.log("The script is running!");
 
-var picture = document.getElementById("picture")
-	picture.style.border = "2px solid blue"
 
 function makeImage1Visible() {
 	var photo = document.getElementById("wyatt");
