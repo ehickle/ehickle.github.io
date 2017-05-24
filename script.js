@@ -2,8 +2,12 @@ console.log("The script is running!");
 
 
 
-function makeImageVisible(event) {
+function changeImage(event) {
 	var name = event.target.value
+	for (i=0; i<photos.length; i++) {
+	photos[i].style.visibility = "hidden";
+	}
+
 	if (name == "Wyatt") {
 		photos[0].style.visibility = "visible";
 	} else if (name == "Evan") {
@@ -31,11 +35,6 @@ function makeImageVisible(event) {
 	} 
 }
 
-function makeImagesInvisible() {
-for (i=0; i<photos.length; i++) {
-	photos[i].style.visibility = "invisble";
-	}
-}
 
 //This section defines assigns each dropdown menu a number, 
 //and adds ana Event Listener to each dropdown
@@ -44,10 +43,9 @@ console.log(photos)
 var dropdown = document.getElementsByTagName("select");
 
 for (i=0; i<dropdown.length; i++) {	
-dropdown[i].addEventListener("change", makeImageVisible);
+dropdown[i].addEventListener("change", changeImage);
 }
 
-for (i=0; i<dropdown.length; i++) {	
-dropdown[i].addEventListener("click", makeImagesInvisible);
-}
+
+
 
