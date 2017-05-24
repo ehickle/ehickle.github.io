@@ -6,8 +6,10 @@
 	z-index:"1";
 }
 
-#grotto {
+#wyatt {
 	visibility: hidden;
+	display: inline-block;
+	width: 50%;
 }
 
 #pic_block {
