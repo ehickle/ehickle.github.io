@@ -5,6 +5,25 @@
 	height:400px;
 	z-index:"1";
 }
+
+.friend {
+	visibility: hidden;
+	display: inline-block;
+	position: absolute;
+	left:300px;
+	top:0px;
+	width: 50%;
+
+}
+
+#pic_block {
+}	
+
+#picksbody {
+
+background-color: #cccccc
+}
+
 #link {
 	font-size:20px;
 	font-style:italic;
@@ -23,7 +42,7 @@ a:visited {
 
 main {
 	z-index:"2";
-	width:960px;
+	width:100%;
 	margin: 0 auto;
 
 }
