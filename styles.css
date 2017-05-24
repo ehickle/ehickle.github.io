@@ -6,6 +6,10 @@
 	z-index:"1";
 }
 
+#grotto {
+	visibility: hidden;
+}
+
 #pic_block {
 }	
 
