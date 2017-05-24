@@ -39,7 +39,6 @@ function changeImage(event) {
 //This section defines assigns each dropdown menu a number, 
 //and adds ana Event Listener to each dropdown
 var photos = document.getElementsByClassName("friend");
-console.log(photos)
 var dropdown = document.getElementsByTagName("select");
 
 for (i=0; i<dropdown.length; i++) {	
